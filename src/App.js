@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import Hero from './components/Hero';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+ {/* <div className="text-3xl font-bold underline line-clamp-6 leading-4">Hello world</div> */}
+ 
+  {/* <div className="bold italic font-sans text-lg antialiased font-extraboldtracking-tight">tanishqa mitra</div>  */}
+  <div>
+    <Hero />
+  </div>
+  {/* <div className='lining-nums line-through decoration-gray-100 text-ellipsis indent-60 align-super'>13</div> */}
+  </>
   );
+
 }
+
 
 export default App;
