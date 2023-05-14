@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Hero from './components/Hero';
+// import Hero from './components/Hero';
+import {Category} from './components/Category.jsx';
 function App() {
   return (
     <>
@@ -8,7 +9,10 @@ function App() {
  
   {/* <div className="bold italic font-sans text-lg antialiased font-extraboldtracking-tight">tanishqa mitra</div>  */}
   <div>
-    <Hero />
+    {/* <Hero /> */}
+  </div>
+  <div>
+    <Category />
   </div>
   {/* <div className='lining-nums line-through decoration-gray-100 text-ellipsis indent-60 align-super'>13</div> */}
   </>
